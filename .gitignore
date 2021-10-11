@@ -1,3 +1,11 @@
+/bin/
+.settings
+.classpath
+.project
+# Created by https://www.toptal.com/developers/gitignore/api/java
+# Edit at https://www.toptal.com/developers/gitignore?templates=java
+
+### Java ###
 # Compiled class file
 *.class
 
@@ -21,3 +29,18 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# End of https://www.toptal.com/developers/gitignore/api/java
+# Eclipse metadata files that can be ignored  
+.classpath  
+.editorconfig  
+.factorypath  
+.gitattributes  
+.project  
+.settings/  
+bin/  
+  
+target/  
+# maven project related ignore files and directories  
+.mvn/  
+target/ 
