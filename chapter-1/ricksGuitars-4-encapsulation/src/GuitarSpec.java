@@ -13,13 +13,6 @@ public class GuitarSpec {
 		this.topWood = topWood;
 	}
 
-	@Override
-	public String toString() {
-		return "Builder: " + builder.toString() + ", model: " + model.toString()
-			+ ", type: " + type.toString() + ", topWood: " + topWood + ", backWood: "
-			+ backWood + ")";
-	}
-
 	public Builder getBuilder() {
 		return this.builder;
 	}
@@ -38,5 +31,12 @@ public class GuitarSpec {
 
 	public Wood getTopWood() {
 		return this.topWood;
+	}
+
+	@Override
+	public String toString() {
+		return "Builder: " + builder.toString() + ", model: " + model.toString()
+			+ ", type: " + type.toString() + ", topWood: " + topWood + ", backWood: "
+			+ backWood + ")";
 	}
 }

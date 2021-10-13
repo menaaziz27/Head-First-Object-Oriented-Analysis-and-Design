@@ -9,14 +9,6 @@ public class Guitar {
 		this.serialNumber = serialNumber;
 		this.price = price;
 		this.spec = new GuitarSpec(builder, model, type, topWood, backWood);
-		System.out.println(this);
-	}
-
-	// Code of Object.toString()
-	@Override
-	public String toString() {
-		return "serialNum: " + serialNumber + ", price: " + price + ", spec => ("
-			+ this.spec;
 	}
 
 	public String getSerialNumber() {
@@ -33,5 +25,12 @@ public class Guitar {
 
 	public GuitarSpec getSpec() {
 		return spec;
+	}
+
+	// Code of Object.toString()
+	@Override
+	public String toString() {
+		return "serialNum: " + serialNumber + ", price: " + price + ", spec => ("
+			+ this.spec;
 	}
 }
